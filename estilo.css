@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:Arial, Helvetica, sans-serif
 }
 
 header{
@@ -9,9 +9,16 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.logoFF{
+    height: 60px;
+    width: auto;
+}
+
 #ff01{
     background-color: black;
     height: 100px;
     color: aliceblue;
+    gap: 30px;
     
 }
