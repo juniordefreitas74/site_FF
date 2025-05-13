@@ -1,24 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: center;
+     position: fixed;      /* fixa no topo da tela */
+    width: 100%;
+    z-index: 1000;        /*fica acima de outros elementos*/
 }
 
 .logoFF{
-    height: 60px;
+    height: 7.5vh;
     width: auto;
+    
+}
+.linkTitulo a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 #ff01{
     background-color: black;
-    height: 100px;
+    height:14vh;
     color: aliceblue;
-    gap: 30px;
+    gap: 3vw;
     
+}
+.apresentacao{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('imagens/salaVertical.avif');
+    background-color: rgb(74, 69, 69);
+    height: auto;
+    margin: 0;
+    text-align: center;
+    padding:20px;
+
+
+}
+.apresentacao h1{
+    width: 75%;
+    height: auto;
+    padding: 5px;
+    background-color: crimson;
+    color: aliceblue;
+    font-style: italic;
+    margin: auto;
+    text-shadow: 2px 2px 4px #000000;
+}
+.apresentacao h2{
+    color: aliceblue;
+    font-size: 34px;
+}
+.apresentacao h3{
+    color: red;
+    font-size: 22px;
+}
+.telefone{
+    background-color: red;
+    padding: 5px;
+}
+#zap01{
+    width: 55px;
+}
+.telefone h1{
+    font-size: 50px;
+    color: rgb(241, 210, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.telefone h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+.quemSomos{
+    padding: 10px;
+    background-image: url('imagens/pixel.avif');
+    height: 100%;
+    background-color: #343434;
+    
+}
+.qstexto{
+    color: aliceblue;
+    text-align: center;
+    font-size:larger;
+}
+.qsconteudo{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.imgQs{
+    width: 544;
+    height: 467;
+}
+.textoQs{
+    width: 30vw;
+}
+.textoQs p{
+    color: aliceblue;
+}
+.textoQs h2{
+    color: red;
+}
+
+#salaVermelha{
+    width: 100%;
+    display: block;
+
+}
+.servicos{
+    position: relative;
+}
+.servicos2{
+    position: absolute;
+    top: 20%;
+    color: aliceblue;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%); /* move para o centro exato */
+}
+.servicos2 h2{
+    font-size: larger;
 }
