@@ -11,9 +11,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-     position: fixed;      /* fixa no topo da tela */
+    position:fixed;      /* fixa no topo da tela */
     width: 100%;
     z-index: 1000;        /*fica acima de outros elementos*/
+    padding-top: 10px;
 }
 
 .logoFF{
@@ -28,7 +29,7 @@ header{
 
 #ff01{
     background-color: black;
-    height:14vh;
+    height:80px;
     color: aliceblue;
     gap: 3vw;
     
@@ -36,22 +37,29 @@ header{
 .apresentacao{
     background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('imagens/salaVertical.avif');
     background-color: rgb(74, 69, 69);
-    height: auto;
+    height: 250px;
     margin: 0;
+    /* display: flex; */
     text-align: center;
-    padding:20px;
+    padding:0px;
+    padding-top: 110px;
+    justify-content: center;
+    align-items: center;
 
 
 }
 .apresentacao h1{
-    width: 75%;
-    height: auto;
-    padding: 5px;
+    width: 100%%;
+    height: 70px;
     background-color: crimson;
     color: aliceblue;
     font-style: italic;
-    margin: auto;
+    margin: 0;
     text-shadow: 2px 2px 4px #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 }
 .apresentacao h2{
     color: aliceblue;
